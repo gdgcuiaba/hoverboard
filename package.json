@@ -1,7 +1,7 @@
 {
-  "name": "hoverboard",
+  "name": "io2017",
   "version": "1.2.0",
-  "description": "Conference website template",
+  "description": "IO Extended Cuiabá Website",
   "scripts": {
   	"gulp": "gulp",
   	"bower": "bower",

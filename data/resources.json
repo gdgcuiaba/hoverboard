@@ -1,37 +1,37 @@
 {
-  "title": "GDG DevFest Season 2016",
-  "description": "The biggest Google tech conference in Ukraine carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts",
+  "title": "Google I/O Extended Cuiabá 2017",
+  "description": "A maior conferência do Google vem de São Francisco para Cuiabá",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "September 9-10, 2016",
-  "locationAddressShort": "Lviv, Ukraine",
-  "motto": "Be a GDG. Be a Hero!",
-  "playIcon": "See how it was in 2015",
-  "c4p": "Become a speaker",
-  "buyTicket": "Buy ticket",
-  "backToTop": "Back to top",
-  "subscribe": "Subscribe",
-  "yourEmail": "Your email",
-  "subscribeNote": "No spam, only the latest news and updates!",
-  "contactUs": "Contact us",
-  "ticketsTitle": "Tickets",
-  "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
-  "close": "Close",
-  "soldOutTickets": "Sold Out",
+  "dates": "20 de Maio, 2017",
+  "locationAddressShort": "Cuiabá, Mato Grosso",
+  "motto": "Faça parte dessa evolução!",
+  "playIcon": "Veja como foi o evento ano passado",
+  "c4p": "Seja um palestrante",
+  "buyTicket": "Compre o ingresso",
+  "backToTop": "Voltar ao topo",
+  "subscribe": "Inscreva-se",
+  "yourEmail": "Seu email",
+  "subscribeNote": "Sem spam, apenas as ultimas noticias e atualizações!",
+  "contactUs": "Fale conosco",
+  "ticketsTitle": "Ingressos",
+  "ticketsDetails": "Ingressos garantem acesso a todas as sessões do evento e coffee breaks. Acomodação não está inclusa no ingresso.",
+  "close": "Fechar",
+  "soldOutTickets": "Todos os ingressos vendidos",
   "socialTitle": "Social",
-  "socialMotto": "Add to circles, like, follow or connect with us on",
-  "beforeHashtag": "What's up",
-  "clickToViewPhotos": "Click here to view more photos",
-  "partners": "Partners",
-  "becomePartner": "Become a partner",
-  "featuredVideosTitle": "Featured #DFUA '15 Sessions",
-  "featuredVideosViewAll": "View all videos",
-  "featuredPeopleTitle": "Rockstar Speakers",
-  "featuredPeopleViewAll": "View all speakers",
-  "action": "See how it was",
-  "locationTitle": "Pivdennyi Expo Center",
-  "locationDescription": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event",
-  "locationAddress": "Shchyretska St, 36",
-  "organizerTitle": "Organizer",
+  "socialMotto": "Adicionar ao circulos, curtir, seguir ou se conecte conosco",
+  "beforeHashtag": "O que estão falando",
+  "clickToViewPhotos": "Clique aqui para ver mais fotos",
+  "partners": "Parceiros",
+  "becomePartner": "Seja um parceiro",
+  "featuredVideosTitle": "Palestras Google I/O 2016",
+  "featuredVideosViewAll": "Veja todos os vídeos",
+  "featuredPeopleTitle": "Palestrantes Rockstars",
+  "featuredPeopleViewAll": "Veja todos os palestrantes",
+  "action": "Veja como foi",
+  "locationTitle": "Centro Sebrae de Sustentabilidade",
+  "locationDescription": "O Centro Sebrae de Sustentabilidade é a unidade de referência nacional do Sebrae sobre o tema. Inaugurado em 2010, atua com a geração e disseminação de conhecimentos em sustentabilidade aplicada aos pequenos negócios. Nosso papel é mapear inovações, técnicas e práticas sustentáveis no Brasil e no mundo, formular conteúdos exclusivos e mostrar aos empresários que é possível ser mais rentável, reduzindo impactos no meio ambiente e contribuindo para um desenvolvimento social mais justo e igualitário.",
+  "locationAddress": "R. Cinco, 144 - Centro Político Administrativo, Cuiabá - MT",
+  "organizerTitle": "Organização",
   "aboutOrganizers": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
   "openTeamPage": "Open team page",
   "whatIsGdg": "What is GDG?",
@@ -122,24 +122,24 @@
   "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
   "statistics": [
     {
-      "counter": 600,
-      "caption": "Attendees"
+      "counter": 120,
+      "caption": "Participantes"
     },
     {
-      "counter": 2,
-      "caption": "Days"
+      "counter": 12,
+      "caption": "Horas"
     },
     {
-      "counter": 30,
-      "caption": "Sessions"
+      "counter": 6,
+      "caption": "Palestras"
     },
     {
-      "counter": 3,
-      "caption": "Tracks"
+      "counter": 1,
+      "caption": "Trilha"
     }
   ],
   "callToAction": {
-    "videoTitle": "GDG DevFest 2015",
+    "videoTitle": "",
     "videoId": "DfMnJAzOFng"
   }
 }
