@@ -14,12 +14,12 @@
   "subscribeNote": "Sem spam, apenas as ultimas noticias e atualizações!",
   "contactUs": "Fale conosco",
   "ticketsTitle": "Ingressos",
-  "ticketsDetails": "Ingressos garantem acesso a todas as sessões do evento e coffee breaks. Acomodação não está inclusa no ingresso.",
+  "ticketsDetails": "Ingressos garantem acesso a todas as sessões do evento e coffee breaks. Acomodação e transporte não estão inclusos no ingresso. Camisetas, adesivos e canecas vão ser vendidas no evento para ajudar na realização.",
   "close": "Fechar",
   "soldOutTickets": "Todos os ingressos vendidos",
   "socialTitle": "Social",
-  "socialMotto": "Adicionar ao circulos, curtir, seguir ou se conecte conosco",
-  "beforeHashtag": "O que estão falando",
+  "socialMotto": "Siga e curta o GDG Cuiabá nas redes sociais",
+  "beforeHashtag": "",
   "clickToViewPhotos": "Clique aqui para ver mais fotos",
   "partners": "Parceiros",
   "becomePartner": "Seja um parceiro",
@@ -28,47 +28,47 @@
   "featuredPeopleTitle": "Palestrantes Rockstars",
   "featuredPeopleViewAll": "Veja todos os palestrantes",
   "action": "Veja como foi",
-  "locationTitle": "Centro Sebrae de Sustentabilidade",
-  "locationDescription": "O Centro Sebrae de Sustentabilidade é a unidade de referência nacional do Sebrae sobre o tema. Inaugurado em 2010, atua com a geração e disseminação de conhecimentos em sustentabilidade aplicada aos pequenos negócios. Nosso papel é mapear inovações, técnicas e práticas sustentáveis no Brasil e no mundo, formular conteúdos exclusivos e mostrar aos empresários que é possível ser mais rentável, reduzindo impactos no meio ambiente e contribuindo para um desenvolvimento social mais justo e igualitário.",
-  "locationAddress": "R. Cinco, 144 - Centro Político Administrativo, Cuiabá - MT",
+  "locationTitle": "Tribunal de Justiça de Mato Grosso",
+  "locationDescription": "Auditório Desembargador Gervásio Leite",
+  "locationAddress": "Rua C, s\n - Centro Político Administrativo, Cuiabá - MT",
   "organizerTitle": "Organização",
-  "aboutOrganizers": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
-  "openTeamPage": "Open team page",
-  "whatIsGdg": "What is GDG?",
-  "aboutGdg": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
-  "readMore": "Read more",
-  "copyLink": "Copy link",
-  "filteredBy": "filtered by",
-  "clearAll": "Clear all",
-  "filter": "Filter",
-  "latestNews": "Latest news",
-  "continueReading": "Continue reading",
-  "viewPresentation": "View presentation",
-  "viewVideo": "View video",
-  "skills": "Skills",
-  "share": "Share",
-  "shareWith": "Share with",
-  "signIn": "Sign in",
-  "signOut": "Sign out",
-  "mySchedule": "My Schedule",
-  "browseMore": "Browse more events",
-  "youShouldSignInSessions": "Sign in to save sessions",
-  "youShouldSignInRating": "Sign in to rate sessions",
-  "offlineMessage": "You are offline",
-  "removedFromSchedule": "Removed from My Schedule",
-  "addedToSchedule": "Added to My Schedule",
-  "rateSession": "Rate session",
+  "aboutOrganizers": "<a href='http://gdgdcuiaba.com' target='_blank'>GDG Cuiabá</a> com o suporte do <a href='http://fb.me/devmatogrosso' target='_blank'>DevMT</a> com o suporte de diversos voluntários, parceiros e patrocinadores traz à Cuiabá pela primeira vez o Google I/O.",
+  "openTeamPage": "Ver equipe",
+  "whatIsGdg": "O que é um GDG?",
+  "aboutGdg": "Um Google Developer Group (GDG) é um grupo aberto e comunitário voltado pra geeks que levam a sério a palavra \"developer\", no seu senso mais puro: aqueles que criam e compartilham tecnologia com paixão.",
+  "readMore": "Leia mais",
+  "copyLink": "Copiar link",
+  "filteredBy": "filtrado po",
+  "clearAll": "Limpar tudo",
+  "filter": "Filtrar",
+  "latestNews": "Últimas notícias",
+  "continueReading": "Continue lendo",
+  "viewPresentation": "Ver apresentação",
+  "viewVideo": "Ver video",
+  "skills": "Habilidades",
+  "share": "Compartilhar",
+  "shareWith": "Compartilhar com",
+  "signIn": "Log in",
+  "signOut": "Log out",
+  "mySchedule": "Minha agenda",
+  "browseMore": "Ver mais eventos",
+  "youShouldSignInSessions": "Faça login para salvar as palestras",
+  "youShouldSignInRating": "Faça login para dar nota as palestras",
+  "offlineMessage": "Você está offline",
+  "removedFromSchedule": "Removido da sua agenda",
+  "addedToSchedule": "Adicionado a sua agenda",
+  "rateSession": "Dar nota a esta palestra",
   "footerBlocks": [
     {
-      "title": "For visitors",
+      "title": "Para visitantes",
       "links": [
         {
-          "text": "Team",
+          "text": "Equipe",
           "url": "/team/",
           "newTab": false
         },
         {
-          "text": "Code of Conduct",
+          "text": "Código de Conduta",
           "url": "/cod/",
           "newTab": false
         },
@@ -78,33 +78,23 @@
           "newTab": true
         },
         {
-          "text": "GDG DevFest Ukraine 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2014",
-          "url": "http://devfest.gdg.org.ua/2014/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2015",
-          "url": "http://devfest.gdg.org.ua/2015/",
+          "text": "GDG Cuiabá",
+          "url": "http://gdgcuiaba.com/",
           "newTab": true
         }
       ]
     },
     {
-      "title": "For Partners",
+      "title": "Para parcerias",
       "links": [
         {
-          "text": "Partnership Proposition",
-          "url": "http://bit.ly/df16-sponsor",
+          "text": "Proposta de Patrocínio",
+          "url": "http://bit.ly/io17cuiaba-sponsor",
           "newTab": true
         },
         {
           "text": "Media Kit",
-          "url": "http://bit.ly/df16-media",
+          "url": "http://bit.ly/io17cuiaba-media",
           "newTab": true
         }
       ]
@@ -113,16 +103,16 @@
   "contactBlock": {
     "links": [
       {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
+        "text": "gdgcuiaba@google.com",
+        "url": "mailto:alvaroviebrantz@gmail.com"
       }
     ]
   },
-  "teamPageTitle": "Team",
-  "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
+  "teamPageTitle": "Equipe",
+  "teamPageText": "O Google é conhecido em todo planeta. Todo mundo está 'dando um google', checando o trânsito com o Waze, usando o Zap no Android, e limpando sua Inbox. Para os usuários comuns, esses serviços simplesmente funcionam. Mas não pra gente. Nós somos desenvolvedores. Nós vemos muito mais: APIs, escalabilidade, stacks, módulos, serviços... E isso que um GDG é: um local aberto onde podemos criar usando as tecnologias Google.<br/><br/>Nosso objetivo com o Google I/O é fazer a melhor experiência de vivenciar a maior conferência do Google direto da nossa cidade.",
   "statistics": [
     {
-      "counter": 120,
+      "counter": 150,
       "caption": "Participantes"
     },
     {
@@ -130,16 +120,12 @@
       "caption": "Horas"
     },
     {
-      "counter": 6,
-      "caption": "Palestras"
-    },
-    {
-      "counter": 1,
-      "caption": "Trilha"
+      "counter": "+6",
+      "caption": "Atividades"
     }
   ],
   "callToAction": {
     "videoTitle": "",
-    "videoId": "DfMnJAzOFng"
+    "videoId": "QPhXL1Im7ds"
   }
 }

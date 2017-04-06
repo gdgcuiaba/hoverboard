@@ -3,8 +3,8 @@
   "startDate": "2017-05-20T09:00:00-04:00",
   "endDate": "2017-05-20T18:00:00-04:00",
   "analytics": {
-    "prod": "UA-43643469-8",
-    "dev": "UA-43643469-9"
+    "prod": "UA-xxxx-y",
+    "dev": "UA-xxxxx-y"
   },
   "organizer": {
     "name": "GDG Cuiabá",
@@ -16,23 +16,23 @@
     "backgroundColor": "#349d4d"
   },
   "firebase": {
-    "name": "hoverboard-experimental",
-    "domain": "hoverboard-experimental.firebaseapp.com",
-    "database": "https://hoverboard-experimental.firebaseio.com",
-    "api": "AIzaSyALDa2D7CMhK_wt2VkET1MaJuQXYVUJd2I",
+    "name": "ioextended2017",
+    "domain": "ioextended2017.firebaseapp.com",
+    "database": "ioextended2017.firebaseio.com/",
+    "api": "AIzaSyBI-gCE78Cpjs6HX5zlIPtSK3L07PlC_GQ",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
-    "indexedDbSession": "hoverboard"
+    "indexedDbSession": "ioextendedcuiaba"
   },
   "mailchimp": {
-    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
-    "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
+    "url": "",
+    "name": ""
   },
   "hashtag": "ioextended2017",
   "disqusShortName": "io-extended-gdg-cuiaba",
   "tweetsSource": "/data/tweets.json",
-  "partnershipProposition": "http://bit.ly/df16-sponsor",
-  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
+  "partnershipProposition": "https://docs.google.com/presentation/d/1MNM3vF2XCMDD0jk1K7nbwThUjt4Ap7GujjLOh_sIjb4/edit?usp=sharing",
+  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC",
   "enableSessionsRating": true,
   "navigation": [
     {
@@ -71,22 +71,21 @@
   ],
   "location": {
     "apiKey": "",
-    "name": "Centro Sebrae de Sustentabilidade",
-    "address": "R. Cinco, 144 - Centro Político Administrativo, Cuiabá - MT",
-    "link": "http://sustentabilidade.sebrae.com.br/sites/Sustentabilidade",
+    "name": "Tribunal de Justiça do Estado de Mato Grosso",
+    "address": " R. C, s\n - Centro Político Administrativo, Cuiabá - MT, 78049-926",
+    "link": "http://www.tjmt.jus.br/",
     "pointer": {
-      "latitude": -15.568577,
-      "longitude": -56.069806,
+      "latitude": -15.5704668,
+      "longitude": -56.0743161,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": -15.568577,
-      "longitude": -56.069806
+      "latitude": -15.5704668,
+      "longitude": -56.0743161
     },
     "images": [
       "/images/backgrounds/location_1.jpg",
-      "/images/backgrounds/location_2.jpg",
-      "/images/backgrounds/location_3.jpg"
+      "/images/backgrounds/location_2.jpg"
     ]
   },
   "gallery": {
@@ -108,9 +107,9 @@
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         "video": {
-          "title": "GDG DevFest Ukraine 2016",
-          "youtubeId": "TdpbgRgz6eE",
-          "text": "See how it was in 2016"
+          "title": "Google I/O 2016",
+          "youtubeId": "QPhXL1Im7ds",
+          "text": "Como foi em 2016"
         },
         "hideLogo": true,
         "minHeight": "360px"
