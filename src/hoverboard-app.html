@@ -35,56 +35,61 @@
   <template>
 
     <style include="shared-styles">
-      :host {
+       :host {
         --min-header-height: 120px;
         --header-background: var(--default-primary-color);
         display: block;
       }
-
+      
       app-drawer-layout {
         @apply(--layout-fit);
       }
-
+      
       app-drawer {
         z-index: 10;
       }
-
+      
       .image-overlay {
         @apply(--layout-fit);
         @apply(--opacity-animation);
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0.7) 140%);
         height: 100%;
       }
-
+      
       app-header {
         @apply(--layout-fixed-top);
         --app-header-background-front-layer: {
           background-image: var(--header-background-image);
           background-position: 50% 50%;
           transition: background-image 0.5s;
-        };
+        }
+        ;
         --app-header-background-rear-layer: {
           background-color: var(--header-background);
-        };
+        }
+        ;
         background-color: var(--header-background);
         color: var(--header-color);
-        transition-property: transform, background-color, color, height;
+        transition-property: transform,
+        background-color,
+        color,
+        height;
         z-index: 9;
       }
-
+      
       .image-overlay-wrapper {
         @apply(--layout-fit);
         opacity: 0;
       }
-
+      
       toolbar-block {
         z-index: 1;
       }
-
+      
       .main-content {
         padding-top: calc(var(--min-header-height) + 64px);
       }
-
+      
       @media (min-width: 601px) {
         .main-content {
           padding-top: 424px;
@@ -93,58 +98,25 @@
     </style>
 
     <!-- Responsive handlers -->
-    <iron-media-query id="mq-phone"
-                      full
-                      query="(max-width:768px)"
-                      query-matches="{{app.isPhoneSize}}"></iron-media-query>
-    <iron-media-query id="mq-tablet"
-                      full
-                      query="(min-width:769px) and (max-width:959px)"
-                      query-matches="{{app.isTabletSize}}"></iron-media-query>
-    <iron-media-query id="mq-desktop"
-                      query="(min-width:960px)"
-                      query-matches="{{app.isDesktopSize}}"></iron-media-query>
+    <iron-media-query id="mq-phone" full query="(max-width:768px)" query-matches="{{app.isPhoneSize}}"></iron-media-query>
+    <iron-media-query id="mq-tablet" full query="(min-width:769px) and (max-width:959px)" query-matches="{{app.isTabletSize}}"></iron-media-query>
+    <iron-media-query id="mq-desktop" query="(min-width:960px)" query-matches="{{app.isDesktopSize}}"></iron-media-query>
 
     <app-location route="{{route}}"></app-location>
-    <app-route
-      route="{{route}}"
-      pattern="/:page"
-      data="{{routeData}}"
-      tail="{{subRoute}}"></app-route>
+    <app-route route="{{route}}" pattern="/:page" data="{{routeData}}" tail="{{subRoute}}"></app-route>
 
-    <firebase-app
-      name="{$ firebase.name $}"
-      auth-domain="{$ firebase.domain $}"
-      database-url="{$ firebase.database $}"
-      api-key="{$ firebase.api $}">
+    <firebase-app name="{$ firebase.name $}" auth-domain="{$ firebase.domain $}" database-url="{$ firebase.database $}" api-key="{$ firebase.api $}">
     </firebase-app>
 
-    <app-data
-      app="{{app}}"
-      speakers="{{speakers}}"
-      sessions="{{sessions}}"
-      schedule="{{schedule}}"
-      posts="{{posts}}"
-    ></app-data>
+    <app-data app="{{app}}" speakers="{{speakers}}" sessions="{{sessions}}" schedule="{{schedule}}" posts="{{posts}}"></app-data>
 
-    <firebase-auth
-      id="auth"
-      provider="google"
-      app-name="{$ firebase.name $}"
-      user="{{app.user}}"
-      status-known="{{_authStatusKnown}}"
-    ></firebase-auth>
+    <firebase-auth id="auth" provider="google" app-name="{$ firebase.name $}" user="{{app.user}}" status-known="{{_authStatusKnown}}"></firebase-auth>
 
     <app-drawer-layout id="drawerLayout" drawer-width="599px" force-narrow>
 
-      <app-drawer
-        id="drawer"
-        swipe-open="[[app.isPhoneSize]]">
+      <app-drawer id="drawer" swipe-open="[[app.isPhoneSize]]">
         <template is="dom-if" if="[[app.isPhoneSize]]">
-          <drawer-block
-            app={{app}}
-            drawer
-          ></drawer-block>
+          <drawer-block app={{app}} drawer></drawer-block>
         </template>
       </app-drawer>
 
@@ -152,70 +124,41 @@
         <div class="image-overlay-wrapper" show$="[[app.headerSettings.backgroundImage]]">
           <div class="image-overlay" fade></div>
         </div>
-        <toolbar-block
-          app="{{app}}"
-          primary
-          sticky
-        ></toolbar-block>
+        <toolbar-block app="{{app}}" primary sticky></toolbar-block>
 
-        <header-content
-          app="{{app}}"
-          selected-day="{{selectedDay}}"
-          fade
-        ></header-content>
+        <header-content app="{{app}}" selected-day="{{selectedDay}}" fade></header-content>
       </app-header>
 
       <div class="main-content">
-        <neon-animated-pages selected="[[app.page]]"
-                             attr-for-selected="name"
-                             selected-attribute="selected">
+        <neon-animated-pages selected="[[app.page]]" attr-for-selected="name" selected-attribute="selected">
 
-          <home-page name="home"
-                     app="{{app}}"
-                     people="{{speakers}}"
-                     posts="{{posts}}"
-                     videos="{{videos}}"></home-page>
+          <home-page name="home" app="{{app}}" people="{{speakers}}" posts="{{posts}}" videos="{{videos}}"></home-page>
 
-          <blog-page name="blog"
-                     app="{{app}}"
-                     route="{{subRoute}}"
-                     posts="{{posts}}"></blog-page>
+          <blog-page name="blog" app="{{app}}" route="{{subRoute}}" posts="{{posts}}"></blog-page>
 
-          <speakers-page name="speakers"
-                         app="{{app}}"
-                         route="{{subRoute}}"
-                         speakers="{{speakers}}"></speakers-page>
+          <speakers-page name="speakers" app="{{app}}" route="{{subRoute}}" speakers="{{speakers}}"></speakers-page>
 
-          <schedule-page name="schedule"
-                         app="{{app}}"
-                         route="{{subRoute}}"
-                         schedule="{{schedule}}"
-                         sessions="{{sessions}}"></schedule-page>
+          <schedule-page name="schedule" app="{{app}}" route="{{subRoute}}" schedule="{{schedule}}" sessions="{{sessions}}"></schedule-page>
 
-          <team-page name="team"
-                     app="{{app}}"></team-page>
+          <team-page name="team" app="{{app}}"></team-page>
 
-          <cod-page name="cod"
-                    app="{{app}}"></cod-page>
+          <cod-page name="cod" app="{{app}}"></cod-page>
+
+          <faq-page name="faq" app="{{app}}"></faq-page>
 
         </neon-animated-pages>
       </div>
 
     </app-drawer-layout>
 
-    <video-dialog id="videoDialog"
-                  video-title="[[video.title]]"
-                  youtube-id="[[video.youtubeId]]"
-                  entry-animation="scale-up-animation"
-                  exit-animation="fade-out-animation"
-                  disable-controls="[[!video.disableControls]]"></video-dialog>
+    <video-dialog id="videoDialog" video-title="[[video.title]]" youtube-id="[[video.youtubeId]]" entry-animation="scale-up-animation"
+      exit-animation="fade-out-animation" disable-controls="[[!video.disableControls]]"></video-dialog>
 
     <toast-element id="toast" app="{{app}}"></toast-element>
 
   </template>
 
   <script>
-
     (function () {
       'use strict';
 
@@ -277,7 +220,7 @@
           // Scroll to the top of the page on every *route* change. Use `Polymer.AppLayout.scroll`
           // with `behavior: 'silent'` to disable header scroll effects during the scroll.
           if (this.app.page !== page) {
-            Polymer.AppLayout.scroll({top: 0, behavior: 'silent'});
+            Polymer.AppLayout.scroll({ top: 0, behavior: 'silent' });
           }
           this.set('app.page', (page || 'home'));
           // Close the drawer - in case the *route* change came from a link in the drawer.
@@ -410,7 +353,6 @@
       });
 
     }());
-
   </script>
 
 </dom-module>

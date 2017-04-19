@@ -28,17 +28,17 @@
   "featuredPeopleTitle": "Palestrantes Rockstars",
   "featuredPeopleViewAll": "Veja todos os palestrantes",
   "action": "Veja como foi",
-  "locationTitle": "Tribunal de Justiça de Mato Grosso",
-  "locationDescription": "Auditório Desembargador Gervásio Leite",
-  "locationAddress": "Rua C, s\n - Centro Político Administrativo, Cuiabá - MT",
+  "locationTitle": "UNIRONDON",
+  "locationDescription": "UNIRONDON - Centro Universitário Cândido Rondon",
+  "locationAddress": "Av. Beira Rio, 3001, Cuiabá - MT, 78025-190",
   "organizerTitle": "Organização",
-  "aboutOrganizers": "<a href='http://gdgdcuiaba.com' target='_blank'>GDG Cuiabá</a> com o suporte do <a href='http://fb.me/devmatogrosso' target='_blank'>DevMT</a> com o suporte de diversos voluntários, parceiros e patrocinadores traz à Cuiabá pela primeira vez o Google I/O.",
+  "aboutOrganizers": "<a href='http://gdgdcuiaba.com' target='_blank'>GDG Cuiabá</a> com o suporte do <a href='http://fb.me/devmatogrosso' target='_blank'>DevMT</a> e de diversos voluntários, parceiros e patrocinadores para trazer à Cuiabá pela primeira vez o Google I/O.",
   "openTeamPage": "Ver equipe",
   "whatIsGdg": "O que é um GDG?",
   "aboutGdg": "Um Google Developer Group (GDG) é um grupo aberto e comunitário voltado pra geeks que levam a sério a palavra \"developer\", no seu senso mais puro: aqueles que criam e compartilham tecnologia com paixão.",
   "readMore": "Leia mais",
   "copyLink": "Copiar link",
-  "filteredBy": "filtrado po",
+  "filteredBy": "Filtrado por",
   "clearAll": "Limpar tudo",
   "filter": "Filtrar",
   "latestNews": "Últimas notícias",
@@ -120,7 +120,7 @@
       "caption": "Horas"
     },
     {
-      "counter": "+6",
+      "counter": "+10",
       "caption": "Atividades"
     }
   ],

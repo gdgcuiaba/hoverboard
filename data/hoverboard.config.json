@@ -1,10 +1,10 @@
 {
-  "url": "https://hoverboard.firebaseapp.com/",
+  "url": "https://ioextended2017.firebaseapp.com/",
   "startDate": "2017-05-20T09:00:00-04:00",
   "endDate": "2017-05-20T18:00:00-04:00",
   "analytics": {
-    "prod": "UA-xxxx-y",
-    "dev": "UA-xxxxx-y"
+    "prod": "UA-37452057-10",
+    "dev": "UA-37452057-10"
   },
   "organizer": {
     "name": "GDG Cuiabá",
@@ -22,7 +22,7 @@
     "api": "AIzaSyBI-gCE78Cpjs6HX5zlIPtSK3L07PlC_GQ",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
-    "indexedDbSession": "ioextendedcuiaba"
+    "indexedDbSession": "ioextended17cuiaba"
   },
   "mailchimp": {
     "url": "",
@@ -31,9 +31,9 @@
   "hashtag": "ioextended2017",
   "disqusShortName": "io-extended-gdg-cuiaba",
   "tweetsSource": "/data/tweets.json",
-  "partnershipProposition": "https://docs.google.com/presentation/d/1MNM3vF2XCMDD0jk1K7nbwThUjt4Ap7GujjLOh_sIjb4/edit?usp=sharing",
+  "partnershipProposition": "http://bit.ly/io17cuiaba-sponsor",
   "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC",
-  "enableSessionsRating": true,
+  "enableSessionsRating": false,
   "navigation": [
     {
       "route": "home",
@@ -50,42 +50,42 @@
     {
       "route": "team",
       "permalink": "/team/"
+    },
+    {
+      "route": "faq",
+      "permalink": "/faq/"
     }
   ],
   "social": [
     {
-      "name": "twitter",
-      "nickname": "gdgcuiaba",
-      "url": "https://twitter.com/gdgcuiaba"
+      "name": "facebook",
+      "nickname": "GDGCuiabá",
+      "url": "https://www.facebook.com/gdgcuiaba"
     },
     {
       "name": "gplus",
       "nickname": "116558875734605132973",
       "url": "https://plus.google.com/116558875734605132973"
-    },
-    {
-      "name": "facebook",
-      "nickname": "GDGCuiabá",
-      "url": "https://www.facebook.com/gdgcuiaba"
     }
   ],
   "location": {
-    "apiKey": "",
-    "name": "Tribunal de Justiça do Estado de Mato Grosso",
-    "address": " R. C, s\n - Centro Político Administrativo, Cuiabá - MT, 78049-926",
-    "link": "http://www.tjmt.jus.br/",
+    "apiKey": "AIzaSyA299pJMY3raSP7KlQ9H1iw4eyHBn1GloY",
+    "name": "UNIRONDON",
+    "address": "Av. Beira Rio, 3001,Cuiabá - MT, 78025-190",
+    "link": "http://www.unirondon.br",
     "pointer": {
-      "latitude": -15.5704668,
-      "longitude": -56.0743161,
+      "latitude": -15.6253874,
+      "longitude": -56.0868412,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": -15.5704668,
-      "longitude": -56.0743161
+      "latitude": -15.6254287,
+      "longitude": -56.0865998
     },
     "images": [
-      "/images/backgrounds/location_1.jpg",
-      "/images/backgrounds/location_2.jpg"
+      "/images/backgrounds/unirondon_3.jpg",
+      "/images/backgrounds/unirondon_2.jpg",
+      "/images/backgrounds/unirondon_1.jpg"
     ]
   },
   "gallery": {
@@ -151,6 +151,14 @@
       "title": "Código de Conduta",
       "headerSettings": {
         "backgroundColor": "#673ab7",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "faq": {
+      "title": "Perguntas",
+      "headerSettings": {
+        "backgroundColor": "#3f51b5",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
