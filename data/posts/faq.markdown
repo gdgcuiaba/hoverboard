@@ -46,7 +46,7 @@ UNIRONDON - Centro Universitário Cândido Rondon, Av. Beira Rio, 3001, Cuiabá 
 
 **Quanto custa a inscrição no evento ?**
 
-Para obter detalhes sobre os valores das inscrições do evento [clique aqui](https://loja.tampa.works/).
+Para obter detalhes sobre os valores das inscrições do evento [clique aqui](https://loja.tampa.works/produto/google-io-extended-cuiaba/).
 
 **Quais serviços não estão inclusos na minha inscrição ?**
 
@@ -58,7 +58,7 @@ Acesso livre a área de realização do evento, stands, sorteio de brindes, e a 
 
 **Como posso fazer minha inscrição ?**
 
-Para fazer a sua inscrição, (https://loja.tampa.works/">clique aqui
+Para fazer a sua inscrição, [clique aqui](https://loja.tampa.works/produto/google-io-extended-cuiaba/).
 
 **Confirmação de inscrição**
 
